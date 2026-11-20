@@ -17,20 +17,20 @@
 
 #if defined (ESP32)
   #if defined(CONFIG_IDF_TARGET_ESP32S3)
-    #include "Processors/TFT_eSPI_ESP32_S3.c" // Tested with SPI and 8 bit parallel
+    #include "Processors/TFT_eSPI_ESP32_S3.inc" // Tested with SPI and 8 bit parallel
   #elif defined(CONFIG_IDF_TARGET_ESP32C3)
-    #include "Processors/TFT_eSPI_ESP32_C3.c" // Tested with SPI (8 bit parallel will probably work too!)
+    #include "Processors/TFT_eSPI_ESP32_C3.inc" // Tested with SPI (8 bit parallel will probably work too!)
   #else
-    #include "Processors/TFT_eSPI_ESP32.c"
+    #include "Processors/TFT_eSPI_ESP32.inc"
   #endif
 #elif defined (ARDUINO_ARCH_ESP8266)
-  #include "Processors/TFT_eSPI_ESP8266.c"
+  #include "Processors/TFT_eSPI_ESP8266.inc"
 #elif defined (STM32) // (_VARIANT_ARDUINO_STM32_) stm32_def.h
-  #include "Processors/TFT_eSPI_STM32.c"
+  #include "Processors/TFT_eSPI_STM32.inc"
 #elif defined (ARDUINO_ARCH_RP2040)  || defined (ARDUINO_ARCH_MBED) // Raspberry Pi Pico
-  #include "Processors/TFT_eSPI_RP2040.c"
+  #include "Processors/TFT_eSPI_RP2040.inc"
 #else
-  #include "Processors/TFT_eSPI_Generic.c"
+  #include "Processors/TFT_eSPI_Generic.inc"
 #endif
 
 #ifndef SPI_BUSY_CHECK
@@ -6144,5 +6144,6 @@ void TFT_eSPI::getSetup(setup_t &tft_settings)
   #include "Extensions/AA_graphics.inc"  // Loaded if SMOOTH_FONT is defined by user
 #endif
 ////////////////////////////////////////////////////////////////////////////////////////
+
 
 
