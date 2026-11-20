@@ -123,7 +123,7 @@
       0x00, 0x00,             //     XSTART = 0
       0x00, 0x9F },           //     XEND = 159
 
-  // Frame control init for RobotLCD, taken from https://github.com/arduino-libraries/TFT, Adafruit_ST7735.cpp l. 263, commit 61b8a7e
+  // Frame control init for RobotLCD, taken from https://github.com/arduino-libraries/TFT, Adafruit_ST7735.inc l. 263, commit 61b8a7e
   Rcmd3RobotLCD[] = {
       3,
       ST7735_FRMCTR1, 2    ,  //  1: Frame rate ctrl - normal mode, 2 args
@@ -216,3 +216,4 @@
        commandList(Rcmd3);
      }
 }
+

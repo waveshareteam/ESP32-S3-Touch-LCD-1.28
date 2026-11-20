@@ -8,7 +8,7 @@
 #define TFT_INIT_DELAY 0x80 // Not used unless commandlist invoked
 
 
-// Generic commands used by TFT_eSPar.cpp
+// Generic commands used by TFT_eSPar.inc
 #define TFT_NOP     0x00
 #define TFT_SWRST   0x01
 
@@ -94,3 +94,4 @@
 #define HX8357_SETPANEL  0xCC
 
 #define HX8357D_SETGAMMA 0xE0
+

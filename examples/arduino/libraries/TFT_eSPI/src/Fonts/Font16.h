@@ -1,4 +1,4 @@
-#include <Fonts/Font16.c>
+#include <Fonts/Font16.inc>
 
 #define nr_chrs_f16 96
 #define chr_hgt_f16 16
@@ -8,3 +8,4 @@
 
 extern const unsigned char widtbl_f16[96];
 extern const unsigned char* const chrtbl_f16[96];
+

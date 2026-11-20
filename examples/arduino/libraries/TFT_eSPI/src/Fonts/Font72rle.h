@@ -1,4 +1,4 @@
-#include <Fonts/Font72rle.c>
+#include <Fonts/Font72rle.inc>
 
 #define nr_chrs_f72 96
 #define chr_hgt_f72 75
@@ -8,3 +8,4 @@
 
 extern const unsigned char widtbl_f72[96];
 extern const unsigned char* const chrtbl_f72[96];
+

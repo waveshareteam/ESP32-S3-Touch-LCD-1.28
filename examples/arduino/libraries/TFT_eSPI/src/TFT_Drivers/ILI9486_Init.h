@@ -82,3 +82,4 @@
     writecommand(0x29);                     // display on
     delay(150);
 }
+

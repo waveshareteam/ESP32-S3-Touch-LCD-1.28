@@ -2693,3 +2693,4 @@ int16_t TFT_eSprite::printToSprite(int16_t x, int16_t y, uint16_t index)
   return gxAdvance[index];
 }
 #endif
+

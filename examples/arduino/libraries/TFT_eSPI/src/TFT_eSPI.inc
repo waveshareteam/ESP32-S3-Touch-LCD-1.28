@@ -6129,19 +6129,20 @@ void TFT_eSPI::getSetup(setup_t &tft_settings)
 
 ////////////////////////////////////////////////////////////////////////////////////////
 #ifdef TOUCH_CS
-  #include "Extensions/Touch.cpp"
+  #include "Extensions/Touch.inc"
 #endif
 
-#include "Extensions/Button.cpp"
+#include "Extensions/Button.inc"
 
-#include "Extensions/Sprite.cpp"
+#include "Extensions/Sprite.inc"
 
 #ifdef SMOOTH_FONT
-  #include "Extensions/Smooth_font.cpp"
+  #include "Extensions/Smooth_font.inc"
 #endif
 
 #ifdef AA_GRAPHICS
-  #include "Extensions/AA_graphics.cpp"  // Loaded if SMOOTH_FONT is defined by user
+  #include "Extensions/AA_graphics.inc"  // Loaded if SMOOTH_FONT is defined by user
 #endif
 ////////////////////////////////////////////////////////////////////////////////////////
+
 

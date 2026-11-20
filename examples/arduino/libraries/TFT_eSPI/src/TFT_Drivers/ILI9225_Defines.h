@@ -3,7 +3,7 @@
 #define TFT_WIDTH  176
 #define TFT_HEIGHT 220
 
-// Generic commands used by TFT_eSPI.cpp
+// Generic commands used by TFT_eSPI.inc
 #define TFT_NOP     0x00
 #define TFT_SWRST   0x28
 
@@ -81,4 +81,5 @@
 
 // Delay between some initialisation commands
 #define TFT_INIT_DELAY 0x00 // Not used unless commandlist invoked
+
 

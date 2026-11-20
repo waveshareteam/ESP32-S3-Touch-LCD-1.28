@@ -197,3 +197,4 @@ const GFXglyph Satisfy_24Glyphs[] PROGMEM = {
 };
 const GFXfont Satisfy_24 PROGMEM = {
 (uint8_t  *)Satisfy_24Bitmaps,(GFXglyph *)Satisfy_24Glyphs,0x20, 0x7D, 36};
+

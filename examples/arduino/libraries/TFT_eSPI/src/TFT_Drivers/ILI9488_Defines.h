@@ -8,7 +8,7 @@
 #define TFT_INIT_DELAY 0x80 // Not used unless commandlist invoked
 
 
-// Generic commands used by TFT_eSPI.cpp
+// Generic commands used by TFT_eSPI.inc
 #define TFT_NOP     0x00
 #define TFT_SWRST   0x01
 
@@ -40,3 +40,4 @@
 #define TFT_MAD_GS  0x01
 
 #define TFT_IDXRD   0x00 // ILI9341 only, indexed control register read
+

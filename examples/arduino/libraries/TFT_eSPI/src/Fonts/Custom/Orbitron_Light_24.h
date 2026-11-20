@@ -197,3 +197,4 @@ const GFXglyph Orbitron_Light_24Glyphs[] PROGMEM = {
 };
 const GFXfont Orbitron_Light_24 PROGMEM = {
 (uint8_t  *)Orbitron_Light_24Bitmaps,(GFXglyph *)Orbitron_Light_24Glyphs,0x20, 0x7D, 24};
+

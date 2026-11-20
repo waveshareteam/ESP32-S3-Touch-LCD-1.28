@@ -1,4 +1,4 @@
-#include <Fonts/Font64rle.c>
+#include <Fonts/Font64rle.inc>
 
 #define nr_chrs_f64 96
 #define chr_hgt_f64 48
@@ -8,3 +8,4 @@
 
 extern const unsigned char widtbl_f64[96];
 extern const unsigned char* const chrtbl_f64[96];
+

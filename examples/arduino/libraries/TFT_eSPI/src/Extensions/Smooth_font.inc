@@ -580,3 +580,4 @@ void TFT_eSPI::showFont(uint32_t td)
   delay(timeDelay);
   fillScreen(textbgcolor);
 }
+
