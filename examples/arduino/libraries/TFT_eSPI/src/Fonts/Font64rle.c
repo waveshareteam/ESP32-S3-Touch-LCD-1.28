@@ -1,3 +1,4 @@
+#include <Arduino.h>
 // Font 6 is intended to display numbers and time
 //
 // This font has been 8 bit Run Length Encoded to save FLASH space
@@ -297,3 +298,4 @@ PROGMEM const unsigned char* const chrtbl_f64[96] =        // character pointer 
         chr_f64_70, chr_f64_20, chr_f64_20, chr_f64_20, chr_f64_20, chr_f64_20, chr_f64_20, chr_f64_20,
         chr_f64_20, chr_f64_20, chr_f64_20, chr_f64_20, chr_f64_20, chr_f64_20, chr_f64_20, chr_f64_20
 };
+

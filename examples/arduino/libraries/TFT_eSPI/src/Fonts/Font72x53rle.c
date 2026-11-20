@@ -1,3 +1,4 @@
+#include <Arduino.h>
 // Font 8
 //
 // This font has been 8 bit Run Length Encoded to save FLASH space
@@ -243,3 +244,4 @@ PROGMEM const unsigned char * const chrtbl_f72[96] =        // character pointer
         chr_f72_20, chr_f72_20, chr_f72_20, chr_f72_20, chr_f72_20, chr_f72_20, chr_f72_20, chr_f72_20,
         chr_f72_20, chr_f72_20, chr_f72_20, chr_f72_20, chr_f72_20, chr_f72_20, chr_f72_20, chr_f72_20
 };
+

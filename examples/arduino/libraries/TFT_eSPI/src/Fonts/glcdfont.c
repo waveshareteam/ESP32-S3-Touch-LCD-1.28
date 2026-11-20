@@ -1,3 +1,4 @@
+#include <Arduino.h>
 // Original Adafruit_GFX 5x7 font
 
 #ifndef FONT5X7_H
@@ -264,3 +265,4 @@ static const unsigned char font[] PROGMEM = {
 };
 
 #endif // FONT5X7_H
+

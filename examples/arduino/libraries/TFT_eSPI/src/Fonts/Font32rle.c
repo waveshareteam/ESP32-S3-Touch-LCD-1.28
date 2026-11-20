@@ -1,3 +1,4 @@
+#include <Arduino.h>
 // Font 4
 //
 // This font has been 8 bit Run Length Encoded to save FLASH space
@@ -1063,3 +1064,4 @@ PROGMEM const unsigned char* const chrtbl_f32[96] =       // character pointer t
         chr_f32_70, chr_f32_71, chr_f32_72, chr_f32_73, chr_f32_74, chr_f32_75, chr_f32_76, chr_f32_77, 
         chr_f32_78, chr_f32_79, chr_f32_7A, chr_f32_7B, chr_f32_7C, chr_f32_7D, chr_f32_7E, chr_f32_7F
 };
+
